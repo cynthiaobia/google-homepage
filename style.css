@@ -1,10 +1,13 @@
 body {
     font-family: Roboto,arial,sans-serif;
     font-size: 18px;
+    font-weight: light;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
+    margin: 0 auto;
+    padding: 5px;
 }
 
 main {
@@ -63,19 +66,37 @@ footer a {
     padding: 15px;
     margin: 20px 0 20px 0;
     border-radius: 25px;
-    border-color: #f2f2f2;
+    border-color: #dadada;
     border-style: solid;
+    border-width: 1px;
     /*fix width*/
     /*insert search icon*/
+}
+
+#search-box:hover {
+    filter: drop-shadow(0 .2em 0.25rem #dadada);
 }
 
 .button {
     font-family: Roboto,arial,sans-serif;
     font-size: 18px;
-    padding: 15px;
+    font-weight: light;
+    color: #3c4043;
+    padding: 12px 15px 12px 15px;
     margin: 0 5px 0 5px;
-    border: 0;
+    border: 1px solid #f8f9fa;
     border-radius: 8px;
-    background-color: #f2f2f2;
+    background-color: #f8f9fa;
+    cursor: pointer;
 }
+
+.button:hover {
+    border-width: 1px 1px 3px 1px;
+    border-style: solid;
+    border-color: #dadada;
+}
+
+
+
+
 

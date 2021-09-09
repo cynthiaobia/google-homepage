@@ -1,6 +1,15 @@
 body {
     font-family: Roboto,arial,sans-serif;
     font-size: 18px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+main {
+    margin: 20px auto;
+    text-align: center;
 }
 
 a {
@@ -32,6 +41,18 @@ footer {
     background-color: #f2f2f2;
     padding: 20px;
     margin: 0;
+    margin-top: auto;
 }
 
-/* styling fonts, header, and footer */
+footer a {
+    color: #70757a;
+}
+
+.float-left {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+    display: inline-block;
+}
